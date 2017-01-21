@@ -3,20 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 
-import VueOnsen from 'vue-onsenui'
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
 
-import 'onsenui'
-import 'onsenui/css/onsenui.css'
-import 'onsenui/css/onsen-css-components.css'
-
-// import { MainPage, SecondPage } from './components'
-import { anyComponents } from './components'
-
-Vue.use(VueOnsen, {
-  components: {
-    ...anyComponents
-  }
-})
+Vue.use(MintUI)
 
 /* eslint-disable no-new */
 new Vue({
@@ -24,9 +14,3 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
-
-// new Vue({
-//   el: '#app',
-//   template: '<App/>',
-//   components: { App }
-// })

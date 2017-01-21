@@ -1,6 +1,6 @@
 # kituen
 
-> A Vue.js project
+> A Vue.js project which manage for smoking.
 
 ## Build Setup
 
